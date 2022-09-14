@@ -16,22 +16,15 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 7rem 20rem 20rem 7rem;
-  padding: 10px;
+.grid-container *{
+    border: 2px tomato solid;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 4rem 2rem 6rem 6rem;
 }
 
-.grid-item {
-  border: .5px solid rgba(82, 75, 75, 0.8);
-  padding: 15px;
-  text-align: left;
-}
-
-.grid-item img {
-  height: 25%;
-}
 
 header{
 grid-column: 1/4;
