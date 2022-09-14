@@ -1,0 +1,56 @@
+.flex-container {
+  display: flex;
+  background-color: #d8c5c5;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+a:hover {
+  color: rgb(6, 106, 33);
+
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 25rem 25rem;
+  padding: 10px;
+}
+
+.grid-item {
+  border: .5px solid rgba(82, 75, 75, 0.8);
+  padding: 15px;
+  text-align: left;
+}
+
+.grid-item img {
+  height: 25%;
+}
+
+.inputText {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: rgb(6, 106, 33);
+
+}
+
+div:nth-child(3):hover {
+  background-color: rgb(217, 221, 20);
+  color: red;
+}
+
+div:nth-child(5):hover {
+  background-color: rgb(158, 23, 231);
+  color: rgb(243, 209, 17);
+}
