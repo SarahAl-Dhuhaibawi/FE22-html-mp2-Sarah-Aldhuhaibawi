@@ -18,7 +18,7 @@ p {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
   grid-template-rows: 35rem 35rem;
   padding: 10px;
 }
